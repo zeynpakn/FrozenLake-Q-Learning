@@ -78,9 +78,7 @@ During training:
 The Q-Learning update rule is:
 
 ```math
-\[
 Q(s,a) \leftarrow Q(s,a) + \alpha \left[r + \gamma \max_{a'} Q(s',a') - Q(s,a)\right]
-\]
 ```
 
 ### Training Configuration
